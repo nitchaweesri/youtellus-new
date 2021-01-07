@@ -1,0 +1,344 @@
+    @media (min-width: 994px) and (max-width: 1960px) {
+        .lg-custom{
+            padding: 0px 50px 0 50px !important;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 993px) {
+        .container-sm{
+            padding: 0 18px;
+        }
+        .logoMB {
+            margin: auto ;
+        }
+
+        #footer .text_thx {
+            font-size: 15px !important;
+        }
+        /* .custom-file{
+            padding-bottom: 5px;
+        } */
+    }
+
+    body .body-pd-bt { padding-bottom: 37px; }
+
+    input,p,label,textarea,a,button{
+        font-family: 'Kittithada-Bold';
+    }
+
+    .btn {
+        border : 2px solid transparent !important;
+    }
+    .text-primary,.btn-outline-primary{
+        color:#765ABA !important;
+        border-color :#765ABA !important;
+    }
+
+    .btn-outline-primary:hover{
+        background-color:#765ABA !important;
+        color:#ffffff !important;
+    }
+
+    .btn-primary{
+        background-color:#765ABA !important;
+        border-color:#765ABA !important
+    }
+
+
+    h7{
+        font-size: 10px;
+    }
+
+    .white-img {
+        -webkit-filter: brightness(0) invert(1);
+        filter: brightness(0) invert(1);
+        width: 22px;
+        height: 22px;
+    }
+
+    #footer {
+        color: #444444;
+        font-size: 14px;
+        background: #ffffff;
+        bottom: 0px;
+        width: 100%;
+        position: fixed;	/*  #f1f0f2  */
+    }
+    
+    #footer .text_thx {
+        font-family: 'Kittithada-Medium' ,Fallback, sans-serif;
+        color: #7A58BF; 
+        text-align: right; 
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .pd-top {
+        margin-top: 80px !important;
+    }
+
+    .otp-pd-top { margin-top: 40px !important; }  
+
+    #menu {
+        background-image: url("../../public/img/thankyou_smile.png");
+        background-repeat: no-repeat;
+        background-size: 198px;
+        padding-bottom: 120px;
+    }
+
+    .lang-btn {
+        display: block;
+        position: relative;
+        float: right;	
+        color: #888888 !important;
+    }
+
+    .lang-btn a{
+        font-family: 'Kittithada-Medium';
+        font-size: 13px;
+        cursor: pointer;
+        text-decoration : none;
+    }
+
+    .lang-btn a:hover { color: #765ABA !important; }
+
+    .lang-btn a.se{
+        font-family: 'Kittithada-Medium';
+        color: rgb(70, 34, 121) !important;
+        font-size: 13px;
+        cursor: pointer;
+        text-decoration : none;
+    }
+
+    .text-condition{
+        line-height: 22px;
+        font-size: 22px;
+    }
+
+    .custom-file-label{
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+
+    .footer {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Mitr-Regular';
+        font-size: 13px;
+        padding-bottom: 6px;
+        color: #495057;
+    }
+
+    .policy{
+        border: none;
+        background: none;
+        padding-bottom: 6px;
+        font-size: 18px;
+        outline: none !important;
+        color: #244f84;
+        text-decoration: underline;
+    }
+
+    .img-hover-zoom {
+        height: 88px;
+        overflow: hidden;
+    }
+    .img-hover-zoom img {
+        transition: transform .5s ease;
+    }
+    .img-hover-zoom:hover img {
+        transform: scale(1.2);
+    }
+    .img-lang{
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    /* -----------------------------------font---------------------------------------- */
+
+    @font-face {
+        font-family: 'Kittithada-Bold';
+        src: url('../fonts/roboto/PSL-KittithadaBold.ttf')
+    }
+    @font-face {
+        font-family: 'Kittithada-Medium';
+        src: url('../fonts/roboto/PSL-Kittithada.ttf')
+    }
+
+
+    .Bold{
+        font-family: 'Kittithada-Bold' ,Fallback, sans-serif;
+    }
+    .ExtraLight{
+        font-family: 'Kittithada-Medium' ,Fallback, sans-serif;
+    }
+    .Light{
+        font-family: 'Kittithada-Medium' ,Fallback, sans-serif;
+    }
+    .Medium{
+        font-family: 'Kittithada-Medium' ,Fallback, sans-serif;
+    }
+    .Regular{
+        font-family: 'Kittithada-Medium' ,Fallback, sans-serif;
+    }
+    .SemiBold{
+        font-family: 'Kittithada-Bold' ,Fallback, sans-serif;
+    }
+
+    /* -----------------------------------font---------------------------------------- */
+
+
+
+    .modal-content{
+        border: none !important;
+        border-radius: 1.5rem !important;
+    }
+
+    .characters-left{
+        font-size: 19px;
+        padding-bottom: 5px;
+        float: right;
+        color: #6c757d;
+        font-family: 'Kittithada-Bold';
+    }
+
+
+    .image-wrapper {
+        position: relative;
+        /* position: absolute;  */
+        padding-bottom: 100%;
+        z-index: 1;
+    }
+
+    .image-wrapper img {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        border-radius: 0.4rem;
+    }
+
+    #uploadmulti div > div .close{
+        opacity: 1;
+        color: #888888;
+        position: relative; 
+        font-size: 18px;
+        margin-top: -10px;
+        margin-right: -10px ;
+        justify-content: end;
+        z-index: 10;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 0px 4px 0 4px !important;
+        box-shadow: 0 0 10px 0 #ccc;
+        cursor: pointer;
+        text-align: end;
+        
+    }
+
+
+
+    .pointer {cursor: pointer;}
+
+    .button-clear{
+        background-color: #765ABA;
+        color: white;
+        border: none;
+        padding: 14px;
+        border-radius: 63%;
+        font-size: 20px;
+        line-height: 21px;
+        font-family: 'Kittithada-Bold';
+    }
+
+    .button-clear:hover{
+        background-color: #5c3da7;
+    }
+
+    .btn-out{
+        position: fixed;
+        bottom: 13px;
+        right: 11px;
+        width: 70px;
+        z-index: 5;
+    }
+    button:focus {
+        outline: none;
+    }
+    .icon-home{
+        height: 33px;
+    }
+
+    ul{
+        padding-inline-start: 20px !important;
+
+    }
+    .text-topic-menu{
+        padding: 86px 15px;
+    }
+    .btn-menu {
+        padding: 9px;
+        font-size: 27px;
+        color: #765ABA;
+        background: none;
+        border: 3px solid #765ABA !important;
+        border-radius: 12px !important;
+    }
+    .btn-menu:hover {
+        color: #fff;
+        background-color:#765ABA !important;
+    }
+    .container-btn-menu{
+        padding: 0 20px;
+    }
+    .btn-re-otp{
+        font-size: 18px;
+        height: 48px;
+        color: #765ABA;
+        background: none;
+        border: 2px solid #765ABA !important;
+        padding: 1px .75rem;
+    }
+    .btn-submit-otp{
+        font-size: 19px;
+        height: 48px;
+    }
+    .txt-wrong-otp{
+        font-size: 20px !important;
+        margin: 0;
+        float: left;
+        font-weight: 600;
+    }
+    .txt-count-otp{
+        display: block;
+        font-size: 19px;
+    }
+    .txt-menu-topic{
+        font-size: 45px;
+        margin: 0;
+    }
+    .form-control{
+        font-size: 20px !important;
+    }
+    .btn-verify{
+        font-size: 22px !important;
+    }
+    .txt-policy{
+        margin-bottom: 3px;
+        font-size: 18px;
+        line-height: 12px;
+    }
+    .btn-condition{
+        font-size: 22px;
+    }
+    .btn-submit-form{
+        font-size: 22px;
+    }
+    .btn-clear-session{
+        font-size: 20px;
+        font-family: 'Kittithada-Bold';
+    }
